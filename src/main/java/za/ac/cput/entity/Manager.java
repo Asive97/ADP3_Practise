@@ -1,4 +1,4 @@
 package za.ac.cput.entity;
 
-public class Department {
+public class Manager {
 }

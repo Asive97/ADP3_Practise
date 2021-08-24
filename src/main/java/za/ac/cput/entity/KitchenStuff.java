@@ -1,4 +1,4 @@
 package za.ac.cput.entity;
 
-public class Address {
+public class KitchenStuff {
 }

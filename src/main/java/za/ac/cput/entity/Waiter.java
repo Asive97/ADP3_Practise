@@ -1,4 +1,4 @@
 package za.ac.cput.entity;
 
-public class Equipment {
+public class Waiter {
 }

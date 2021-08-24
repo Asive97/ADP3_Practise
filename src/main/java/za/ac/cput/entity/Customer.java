@@ -1,4 +1,4 @@
 package za.ac.cput.entity;
 
-public class WorkingHours {
+public class Customer {
 }
