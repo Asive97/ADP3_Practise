@@ -22,6 +22,7 @@ class WaiterFactoryTest {
     void testEquality()
     {
         assertEquals(waiter,waiter2);
+
     }
     @Test
     @Disabled

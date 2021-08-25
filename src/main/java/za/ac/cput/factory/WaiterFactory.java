@@ -10,6 +10,5 @@ public  static Waiter createWaiter(String name){
                    .setName(name)
                    .build();
     return waiter;
-
 }
 }
