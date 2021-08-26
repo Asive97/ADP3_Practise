@@ -4,24 +4,24 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
-import za.ac.cput.entity.Waiter;
+import za.ac.cput.entity.Manager;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class WaiterFactoryTest {
+class ManagerFactoryTest {
 
-    Waiter waiter = WaiterFactory.createWaiter("Asive");
-    Waiter waiter2 = waiter;
+    Manager manager = ManagerFactory.createManager("Asive");
+    Manager manager2 = manager;
 
     @Test
     void testIdentity(){
-        assertSame(waiter,waiter2);
+        assertSame(manager,manager2);
 
     }
     @Test
     void testEquality()
     {
-        assertEquals(waiter,waiter2);
+        assertEquals(manager,manager2);
 
     }
     @Test
