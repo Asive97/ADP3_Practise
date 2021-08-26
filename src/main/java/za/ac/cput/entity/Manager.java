@@ -4,7 +4,7 @@ public class Manager {
     private String id;
     private String name;
 
-    private Manager(){}
+    public Manager(){}
 
     public Manager(Builder builder) {
         this.id = builder.id;
